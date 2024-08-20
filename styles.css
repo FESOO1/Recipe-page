@@ -24,17 +24,91 @@ body {
 
 .recipe-box {
     width: 770px;
-    padding: 35px;
+    padding: 40px;
     background-color: white;
     border-radius: 2rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
 .recipe-image {
-
+    line-height: 0;
 }
 
 .recipe-image > img {
     width: 100%;
     border-radius: 1rem;
 }
+
+.main-title {
+    font-family: var(--f-young-serif);
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 25px;
+    font-size: 2.5rem;
+}
+
+.main-paragraph {
+    font-family: var(--f-outfit);
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+}
+
+.preparation-time-container {
+    margin-top: 20px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px 30px;
+    font-family: var(--f-outfit);
+    border-radius: 1rem;
+}
+
+.preparation-time-text {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.preparation-time {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-inline: 25px;
+}
+
+.preparation-time > li {
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-time-text-bold-inner {
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.ingredients {
+    margin-top: 20px;
+}
+
+.subheader {
+    font-family: var(--f-young-serif);
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    font-size: 1.8rem;
+}
+
+.ingredients-inner-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    font-family: var(--f-outfit);
+    font-weight: 400;
+    list-style: square;
+    color: hsl(30, 10%, 34%);
+    row-gap: 10px;
+}
+
+.ingredients-inner-container > li {
+    padding-left: 15px;
+}
+
