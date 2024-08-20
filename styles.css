@@ -55,7 +55,7 @@ body {
 }
 
 .preparation-time-container {
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: hsl(330, 100%, 98%);
     padding: 20px 30px;
     font-family: var(--f-outfit);
@@ -81,12 +81,19 @@ body {
 }
 
 .preparation-time-text-bold-inner {
-    font-weight: 600;
+    font-weight: 700;
     padding-left: 15px;
 }
 
-.ingredients {
-    margin-top: 20px;
+.divider {
+    margin-top: 35px;
+    border: 0;
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients,
+.instructions {
+    margin-top: 25px;
 }
 
 .subheader {
@@ -97,7 +104,7 @@ body {
 }
 
 .ingredients-inner-container {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     padding-left: 22px;
@@ -108,7 +115,32 @@ body {
     row-gap: 10px;
 }
 
-.ingredients-inner-container > li {
+.ingredients-inner-container > li,
+.instructions-inner-container > li {
     padding-left: 15px;
+}
+
+.ingredients-inner-container > li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-inner-container > li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.instructions-inner-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    font-family: var(--f-outfit);
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    row-gap: 10px;
+}
+
+.instructions-inner-bold-text {
+    font-weight: 700;
 }
 
