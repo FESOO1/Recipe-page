@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --f-outfit: "Outfit", sans-serif;
+    --f-young-serif: "Young Serif", serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.wrapper {
+    padding-block: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-box {
+    width: 770px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.recipe-image {
+
+}
+
+.recipe-image > img {
+    width: 100%;
+    border-radius: 1rem;
+}
