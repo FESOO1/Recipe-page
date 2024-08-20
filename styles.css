@@ -144,3 +144,43 @@ body {
     font-weight: 700;
 }
 
+.nutritions {
+    margin-top: 25px;
+}
+
+.paragraph {
+    font-family: var(--f-outfit);
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 20px;
+    font-family: var(--f-outfit);
+}
+
+.graph-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.graph-span-inner-text {
+    color: hsl(30, 10%, 34%);;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nutrition-text-bold {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.divider-graph {
+    border: 0;
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
